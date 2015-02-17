@@ -35,7 +35,6 @@ function search() {
             vidDesc = item.snippet.description;
             vidThumbimg = '<div class="gallery"><a href=https://www.youtube.com/watch?v=' + vidId + ' target="_blank"><img id="thumb" src="' + vidThumburl + '" alt="' + vidDesc + '" style="width:204px;height:128px"></a></div>';
             $('#search-results').append('<li><p>' + vidTitle + vidThumbimg + '</p></li>');
-
-        })
-    })
+        });
+    });
 }
