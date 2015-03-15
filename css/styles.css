@@ -57,6 +57,7 @@
             border-radius: 3px;
             outline: none;
             font-size: 1em;
+            padding: 0 10px;
         }
         
         #submit {
